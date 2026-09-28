@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/purgenote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Purge CSV/TSV note tables for quick inspection and cleanup.",
+  "bin": {
+    "purgenote": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/purgenote.git"
+  },
+  "homepage": "https://theworker02.github.io/purgenote/",
+  "keywords": [
+    "purge",
+    "note",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
